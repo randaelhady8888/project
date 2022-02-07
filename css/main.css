@@ -1,0 +1,145 @@
+/* start page */
+
+.page{
+    display: flex;
+    height: 100vh;
+}
+.page aside{
+    flex-basis: 15%;
+    border-right: 1px solid #eee;
+    position: relative;
+}
+.page aside ul{
+    padding-left: 50px;
+    padding-top: 50px;
+    list-style: none;
+}
+.page aside ul div{
+    display: flex;
+    margin-bottom: 25px;
+}
+.page aside ul li{
+    margin-left: 15px;
+    padding: 0
+}
+.page .img{
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    border: 2px solid #eee;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.page img{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.page section{
+    flex: 1;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.page section form{
+    width: 500px;
+    position: relative;
+}
+.page section form input{
+    width: 100%;
+    padding: 10px;
+    border:2px solid #eee;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    outline: none;
+}
+.page section form svg{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #eee;
+}
+.page section .stats{
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    background-color: #fcfcfc;
+    padding: 20px 30px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+.page section .stats svg{
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    font-size: 15px;
+    display: block;
+    background-color: #ece8e8;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.page section .stats p{
+    color: #ccc;
+    margin: 15px 0;
+}
+.page section .stats h3{
+    font-size: 40px;
+    margin: 0;
+}
+.page .sales{
+    background-color: black;
+    color: white;
+    width: 250px;
+    border-top-left-radius: 20px;
+    padding-top: 20px;
+}
+.page .sales .sailing > div{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.page .sales .sailing > div svg{
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-right: 40px;
+}
+.page .sales  h2{
+    text-align: center;
+}
+.page .sales .sailing > div h3, p{
+    margin: 0;
+}
+.page .sales .sailing > div p{
+    color: #ccc;
+    margin-top: 5px;
+}
